@@ -1,0 +1,125 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 400px;
+  padding: 20px 10px;
+  font-size: 14px;
+  background: linear-gradient(to bottom right, #ffffff, rgba(102, 91, 255, 0.144), rgba(184, 207, 255, 0.397));
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+}
+
+.category-item {
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 2px;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#categories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+
+.category-input-button {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+
+#category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+#bookmark-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+  width: 100%;
+}
+
+.bookmark {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  font-weight: 600;
+  gap: 5px;
+  width: 100%;
+  padding: 10px 5px 10px 15px;
+  color: #474747;
+  border: solid 1px #c7d1e2;
+  border-left: 2px solid rgba(0, 140, 255, 0.664);
+  background: linear-gradient(to right, #ffffff00, #dce3ee);
+  border-radius: 3px
+}
+
+#add-category {
+  padding: 6px 10px;
+  border-radius: 2px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+}
+
+select {
+  padding: 3px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  background-color: #eeeeee;
+  font-size: 13px;
+  color: #555555;
+}
+
+select:focus {
+  outline: none;
+  border: 1px solid #9c9c9c;
+}
+
+input {
+  padding: 6px 8px;
+  width: 65%;
+  border-radius: 3px;
+  border: 1px solid #d6d6d6;
+  background-color: #f9f9f9;
+  font-size: 1em;
+  color: #333;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #9c9c9c;
+}

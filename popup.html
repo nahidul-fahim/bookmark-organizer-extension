@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./popup.css" />
+  <title>Bookmark Organizer</title>
+</head>
+
+<body>
+  <h2
+    style="font-size: 20px; color: rgb(0, 140, 255); background-color: rgba(184, 223, 255, 0.199); padding: 5px 8px; border: 1px solid rgba(0, 140, 255, 0.596); border-radius: 3px; font-weight: 700; width: 100%;">
+    Bookmark Organizer</h2>
+  <input type="text" id="search" placeholder="Search bookmarks..." />
+  <div id="categories">
+    <h3 style="font-size: 20px; margin-bottom: 20px; color: rgb(0, 140, 255); border-left: 3px solid rgb(0, 140, 255); padding-left: 5px; font-weight: 600;">Categories</h3>
+    <div class="category-input-button">
+      <input type="text" id="new-category" placeholder="Add new category" />
+      <button id="add-category">Add Category</button>
+    </div>
+    <div id="category-list"></div>
+  </div>
+  <div style="width: 100%" id="bookmarks">
+    <h3 style="font-size: 20px; margin-bottom: 20px; color: rgb(0, 140, 255); border-left: 3px solid rgb(0, 140, 255); padding-left: 5px; font-weight: 600">Bookmarks</h3>
+    <div id="bookmark-list"></div>
+  </div>
+
+  <script src="./popup.js" type="module"></script>
+</body>
+
+</html>
